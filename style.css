@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 150px;
+  padding: 0 30vh;
+  box-shadow: 0 1px 8px rgba(36, 36, 36, 0.1490196078);
+}
+@media (max-width: 768px) {
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100px;
+    padding: 0;
+  }
+}
+header nav {
+  font-size: 22px;
+  font-weight: 600;
+}
+header nav ul {
+  justify-content: space-between;
+  display: flex;
+  width: 250px;
+}
+header nav ul li {
+  display: flex;
+  list-style: none;
+}
+header nav ul li a {
+  color: black;
+  text-decoration: none;
+}
+header nav img {
+  width: 20%;
+}
+main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 30vh;
+  height: 100vh;
+  width: 100vw;
+}
+@media (max-width: 768px) {
+  main {
+    display: block;
+    padding: 0;
+  }
+}
+main .copo {
+  width: 20%;
+}
+@media (max-width: 768px) {
+  main .copo {
+    display: none;
+  }
+}
+main figure {
+  display: flex;
+}
+@media (max-width: 768px) {
+  main figure {
+    padding-top: 50%;
+  }
+}
+main figure img {
+  margin: 0 10px;
+  width: 75%;
+}
+main h2 {
+  font-size: 38px;
+  width: 550px;
+}
+@media (max-width: 768px) {
+  main h2 {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+  }
+}
+main button {
+  width: 350px;
+  height: 80px;
+  border: none;
+  background-color: #FCA60F;
+  font-size: 28px;
+  font-weight: 600;
+  color: white;
+  border-radius: 15px;
+  margin: 50px 0px;
+}
+@media (max-width: 768px) {
+  main button {
+    width: 300px;
+    height: 70px;
+  }
+}
+@media (max-width: 768px) {
+  main div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 30%;
+  }
+}/*# sourceMappingURL=style.css.map */
